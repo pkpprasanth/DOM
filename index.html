@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Javascript - Add HTML Table Row </title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 id="title">ProGrad Telephone Directory</h1>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            <img src="./images/Logo Pink@1x.png" id="logo">
+           
+          </nav>
+        <div id="form">
+    <form id="data" >
+        First Name: <input type="text" name="fname" id="fname"  /><br/><br/>
+        Last Name: <input type="text" name="lname" id="lname"  /><br/><br/>
+        Email: <input type="text" name="Email" id="email"  /><br/><br/>
+        Phone Number: <input type="text" name="phone" id="phone" /><br/><br/>
+        Address: <input type="text" name="address" id="address" /><br/><br/>
+        <input type="button" onclick="addRow();" value="Submit">
+        <input type="button" onclick="reset();" value="Reset">
+    </form>
+</div>
+        <table  id="customers">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number </th>
+                <th>Address </th>
+            </tr>
+        </table>
+    </body>
+    <footer class="footer">Made with <img src="/images/prograd-heart.svg"> by ProGrad</footer>
+
+</html>
